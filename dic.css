@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #553c9a;
+    color: white;
+    padding: 5px;
+}
+.main{
+    background-color: antiquewhite;
+    margin: 0px auto;
+    max-width: 80%;
+    box-shadow: 0px 0px 20px rgba(0, 0,0, 0.4);
+
+}
+.inputs{
+    /* border: 2px solid black; */
+    margin: 0px 20px;
+    margin-top: 30px;
+    padding: 10px;
+   
+}
+h2{
+    display: flex;
+    justify-content: center;
+    
+}
+.input_wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input_wrap input{
+    width: 40%;
+    padding: 3px;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+.input_wrap button{
+    padding: 4px;
+    border: none;
+    background-color: #553c9a;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.input_wrap input:hover{
+    cursor: pointer;
+}
+.data{
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+.def{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.loading{
+    display: none;
+}
+.data .def{
+    font-size: 20px;
+    color: #2d3748;
+    line-height: 1.6;
+}
